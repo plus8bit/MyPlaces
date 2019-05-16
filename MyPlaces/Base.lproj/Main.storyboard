@@ -45,6 +45,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dje-00-cr0">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="33"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="HeI-x6-fav" kind="relationship" relationship="rootViewController" id="ZWs-q5-hzb"/>
