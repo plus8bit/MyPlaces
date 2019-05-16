@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0174F1C7228DDA1C00EF6219 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174F1C6228DDA1C00EF6219 /* CustomTableViewCell.swift */; };
 		01B53F75228B4CFC0090C0B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B53F74228B4CFC0090C0B3 /* AppDelegate.swift */; };
 		01B53F7A228B4CFC0090C0B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B53F78228B4CFC0090C0B3 /* Main.storyboard */; };
 		01B53F7C228B4D000090C0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B53F7B228B4D000090C0B3 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0174F1C6228DDA1C00EF6219 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		01B53F71228B4CFC0090C0B3 /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B53F74228B4CFC0090C0B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01B53F79228B4CFC0090C0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				01B53F74228B4CFC0090C0B3 /* AppDelegate.swift */,
-				01B53F86228B4E5A0090C0B3 /* MainTableViewController.swift */,
 				01B53F78228B4CFC0090C0B3 /* Main.storyboard */,
+				01B53F86228B4E5A0090C0B3 /* MainTableViewController.swift */,
+				0174F1C6228DDA1C00EF6219 /* CustomTableViewCell.swift */,
 				01B53F7B228B4D000090C0B3 /* Assets.xcassets */,
 				01B53F7D228B4D000090C0B3 /* LaunchScreen.storyboard */,
 				01B53F80228B4D000090C0B3 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0174F1C7228DDA1C00EF6219 /* CustomTableViewCell.swift in Sources */,
 				01B53F87228B4E5A0090C0B3 /* MainTableViewController.swift in Sources */,
 				01B53F75228B4CFC0090C0B3 /* AppDelegate.swift in Sources */,
 			);
